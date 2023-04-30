@@ -16,7 +16,7 @@ Caso você seja novo neste tema da ciência de dados, recomendo ler os seguintes
 
 ## Introdução <a name="introduction"></a>
 
-Este projeto e repositório surgiu a partir do trabalho de conclusão da disciplina MAI5001 (Ciência de dados) dos alunos [Lucas Maretti](github.com/lucasmaretti) e [Gabriel Bortoli](github.com/gbortoli-usp) do programa de mestrado profissional do MECAI (USP). 
+Este projeto e repositório surgiu a partir do trabalho de conclusão da disciplina MAI5001 (Ciência de dados) dos alunos [Lucas Maretti](https://www.linkedin.com/in/lucas-maretti/) e [Gabriel Bortoli](https://www.linkedin.com/in/gbortoli/) do programa de mestrado profissional do MECAI (USP). 
 A aplicação de técnicas de ciência de dados ao futebol é ainda um tema pouco explorado no Brasil. Com este projeto e disponibilização do código e do repositório esperamos fomentar mais desenvolvimentos nesse tema em português e no Brasil
 
 ## Descrição dos dados <a name="data"></a>
