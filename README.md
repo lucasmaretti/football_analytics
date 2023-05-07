@@ -12,7 +12,7 @@ Caso você seja novo neste tema da ciência de dados, recomendo ler os seguintes
 3. [Descrição do problema](#statement)
 4. [Seção](#wrangling)
 5. [Conclusões](#conclusions)
-6. [Licensing, Authors, and Acknowledgements](#licensing)
+6. [Licenciamento e Reconhecimentos](#licensing)
 
 ## Introdução <a name="introduction"></a>
 
