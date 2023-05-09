@@ -9,10 +9,11 @@ Caso você seja novo neste tema da ciência de dados, recomendo ler os seguintes
 
 1. [Introdução](#introduction)
 2. [Data description](#data)
-3. [Descrição do problema](#statement)
-4. [Seção](#wrangling)
-5. [Conclusões](#conclusions)
-6. [Licenciamento e Reconhecimentos](#licensing)
+3. [Objetivos e métricas](#statement)
+4. [Análise Exploratória](#wrangling)
+5. [Modelagem](#modelling)
+6. [Conclusões](#conclusions)
+7. [Licenciamento e Reconhecimentos](#licensing)
 
 ## Introdução <a name="introduction"></a>
 
@@ -36,10 +37,19 @@ Para mais informações sobre este tema recomendo assistir a este [video](https:
 
 **Métricas**
 
-Log-loss (expandir esta seção)
+Para algoritmos de classificação, a função de custo padrão usada é a perda logarítmica. Para modelos com output binário, como é o caso do modelo de expected goals, a função log loss é dada por:
 
-### Seção
+$$\mathcal{L}(\hat{y}, y) = - \frac{1}{n}\sum_{i=1}^{n} y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i)$$
+
+em que $\hat{y}$ é probabilidade prevista da classe positiva, , $y$ é o valor real (0 ou 1), e $n$ é o número de amostras no dataset.
+
+Embora a maioria das métricas de avaliação para problemas de classificação envolva a análise da capacidade preditiva do modelo em várias situações usando métricas tradicionais como precisão e recall, essa abordagem não é ideal ao problema de modelagem de xG. Isso ocorre porque resultado desejado do modelo é a probabilidade de que um chute específico seja gol, e não uma previsão de se um chute é um gol (ou seja, uma saída binária). Por este motivo, este trabalho usa como principal métrica comparativa de modelos a própria perda logarítmica , em que quanto menor essa pontuação, melhor o algoritmo de classificação estima com precisão a probabilidade de gol.
+
+### Análise Exploratória e hipóteses levantadas <a name="wrangling"></a>
 Seção adicional se necessário
+
+### Modelagem <a name="modelling"></a>
+Lorem ipsum
 
 ## Conclusões <a name="conclusions"></a>
 TBS
