@@ -2,7 +2,9 @@
 
 ## Repositório para estudo da aplicação de ciência de dados no futebol
 
-Caso você seja novo neste tema da ciência de dados, recomendo ler os seguintes artigos: https://medium.com/zeroeum/footballanalytics/home
+Caso você seja novo neste tema da ciência de dados, recomendamos ler os seguintes artigos: https://medium.com/zeroeum/footballanalytics/home
+
+Confira o webapp criado a partir deste estudo em: https://faltavam4minutos.streamlit.app
 
 
 ## Conteúdo
